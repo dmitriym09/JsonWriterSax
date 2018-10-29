@@ -15,7 +15,7 @@ using namespace md::json::writersax;
 ```
 
 ## Basic Usage
-Library write JSON to QTextStream. All write function return boolean result of success. Сontrol of the uniqueness of object keys is not implemented now. Сode is documented with doxygen.
+Library writes JSON to QTextStream. All write functions return boolean result of success. Сontrol of the uniqueness of object keys is not implemented now. Сode is documented with doxygen.
 
 Best manual for programmist is an example of source code =)
 
@@ -79,7 +79,7 @@ Result
 
 ## QJsonDocument limitations
 
-For large JSON documemt Qt write error message 
+For large JSON documemt Qt writes error message 
 
 `
 QJson: Document too large to store in data structure
